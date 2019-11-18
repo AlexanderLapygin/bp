@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rmdir /s /q node_modules",
     "dev": "next",
     "build": "next build",
     "start": "next start",

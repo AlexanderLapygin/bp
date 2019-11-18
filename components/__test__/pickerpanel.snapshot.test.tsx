@@ -1,7 +1,7 @@
-// components/__tests__/button.snapshot.test.tsx
+// components/__tests__/pickerpanel.snapshot.test.tsx
 import * as React from "react";
 import * as TestRenderer from 'react-test-renderer';
-import Button from "../Button";
+import Button from "../PickerPanel";
 
 
 it('renders correctly', () => {
