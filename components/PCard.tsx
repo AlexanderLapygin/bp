@@ -6,9 +6,9 @@ export function giveMeFive(): number {
 }
 
 type Props = {
-    frameText: string
+    cardText: string
 }
 
 export default (props: Props) => (
-    <Box onClick={() => console.log(giveMeFive())}>{props.frameText}</Box>
+    <Box onClick={() => console.log(giveMeFive())}>{props.cardText}</Box>
 )
