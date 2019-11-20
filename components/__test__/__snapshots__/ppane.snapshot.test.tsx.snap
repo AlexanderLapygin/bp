@@ -8,13 +8,13 @@ exports[`renders correctly 1`] = `
     className="MuiGrid-root MuiGrid-item"
   >
     <div
-      className="MuiBox-root MuiBox-root-105"
+      className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
       onClick={[Function]}
     >
       cardText1
     </div>
     <div
-      className="MuiBox-root MuiBox-root-106"
+      className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
       onClick={[Function]}
     >
       cardText2
