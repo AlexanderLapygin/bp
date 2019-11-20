@@ -1,10 +1,9 @@
-// components/__tests__/pickerpanel.snapshot.test.tsx
 import * as React from "react";
 import * as TestRenderer from 'react-test-renderer';
-import Button from "../PPane";
+import Panel from "../PPane";
 
 
 it('renders correctly', () => {
-    const tree = TestRenderer.create(<Button buttonText="Some Text" />).toJSON()
+    const tree = TestRenderer.create(<Panel />).toJSON()
     expect(tree).toMatchSnapshot()
 })

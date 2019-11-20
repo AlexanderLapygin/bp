@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook -p 6006 -c .storybook",
-    "test": "jest"
+    "test": "jest",
+    "accept snapshot": "npm test -- -u"
   },
   "keywords": [],
   "author": "Alexander Lapygin <alexanderlapygin@gmail.com> (https://github.com/capcross)",

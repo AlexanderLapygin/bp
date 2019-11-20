@@ -1,13 +1,20 @@
 import * as React from 'react'
+import {Grid} from "@material-ui/core";
+import PCard from "./PCard";
 
 export function giveMeFive(): number {
     return 5
 }
 
-type Props = {
-    buttonText: string
-}
-
-export default (props: Props) => (
-    <button onClick={() => console.log(giveMeFive())}>{props.buttonText}</button>
+export default () => (
+    <Grid
+        container
+        direction="row"
+        alignItems="center"
+    >
+        <Grid item>
+            <PCard cardText="cardText1"></PCard>
+            <PCard cardText="cardText2"></PCard>
+        </Grid>
+    </Grid>
 )
