@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item"
+  >
+    <div
+      className="MuiBox-root MuiBox-root-105"
+      onClick={[Function]}
+    >
+      cardText1
+    </div>
+    <div
+      className="MuiBox-root MuiBox-root-106"
+      onClick={[Function]}
+    >
+      cardText2
+    </div>
+  </div>
+</div>
+`;

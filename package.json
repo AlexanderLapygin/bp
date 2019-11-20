@@ -12,7 +12,7 @@
     "accept snapshot": "npm test -- -u"
   },
   "keywords": [],
-  "author": "Alexander Lapygin <alexanderlapygin@gmail.com> (https://github.com/capcross)",
+  "author": "Alexander Lapygin <alexanderlapygin@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.6.1",
