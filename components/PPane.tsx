@@ -13,8 +13,8 @@ export default () => (
         alignItems="center"
     >
         <Grid item>
-            <PCard title="1" content="content1"></PCard>
-            <PCard title="2" content="content2"></PCard>
+            <PCard title="title1" content="content1"></PCard>
+            <PCard title="title2" content="content2"></PCard>
         </Grid>
     </Grid>
 )
