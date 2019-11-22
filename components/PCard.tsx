@@ -10,6 +10,7 @@ const useStyles = makeStyles({
   },
   bullet: {
     display: 'inline-block',
+
     margin: '0 2px',
     transform: 'scale(0.8)',
   },
@@ -29,10 +30,9 @@ type Props = {
 export default (props: Props) => {
   const classes = useStyles();
   return (
-    <Card className={classes.card}>Card content
-      <CardHeader title="CardHeader title"/>
+    <Card className={classes.card}>
+      <CardHeader title={props.title}/>
       <CardContent>
-        CardContent content
         {props.content}
       </CardContent>
     </Card>

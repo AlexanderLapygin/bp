@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, IconButton, Toolbar, Typography} from "@material-ui/core";
+import {IconButton, Toolbar, Typography} from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 import {AppBar} from "@material-ui/core";
 import {createStyles, makeStyles, Theme} from '@material-ui/core/styles'
@@ -10,13 +10,13 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1
     },
     menuButton: {
-      marginRight: theme.spacing(2),
+      marginRight: theme.spacing(2)
     },
     title: {
-      flexGrow: 1,
+      flexGrow: 1
     },
-    background: {
-      background : '#37474F',
+    back: {
+      background : '#37474F'
     }
   }),
 );
@@ -25,15 +25,14 @@ export const Header = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="static" className={classes.background}> {/* probably not the best practice */}
+      <AppBar position="static" className={classes.back}> {/* probably not the best practice */}
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h5" className={classes.title}>
             Header
           </Typography>
-          <Button color="inherit">Войти</Button>
         </Toolbar>
       </AppBar>
     </div>
