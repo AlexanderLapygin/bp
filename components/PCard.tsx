@@ -2,35 +2,36 @@ import * as React from 'react'
 import {Card} from "@material-ui/core";
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from "@material-ui/core/CardContent";
-import {makeStyles} from "@material-ui/styles";
+//import {makeStyles} from "@material-ui/styles";
 
-const useStyles = makeStyles({
-  card: {
-    minWidth: 275,
-  },
-  bullet: {
-    display: 'inline-block',
-
-    margin: '0 2px',
-    transform: 'scale(0.8)',
-  },
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-});
+// const useStyles = makeStyles({
+//   card: {
+//     minWidth: 275,
+//   },
+//   bullet: {
+//     display: 'inline-block',
+//
+//     margin: '0 2px',
+//     transform: 'scale(0.8)',
+//   },
+//   title: {
+//     fontSize: 14,
+//   },
+//   pos: {
+//     marginBottom: 12,
+//   },
+// });
 
 type Props = {
-  title: string
-  content: string
+  title: string,
+  content: string,
+  styles: any
 };
 
 export default (props: Props) => {
-  const classes = useStyles();
+  //const classes = useStyles();
   return (
-    <Card className={classes.card}>
+    <Card style={props.styles.Paper}>
       <CardHeader title={props.title}/>
       <CardContent>
         {props.content}
