@@ -15,6 +15,12 @@ const useStyles = makeStyles((theme: Theme) =>
     title: {
       flexGrow: 1,
     },
+    background: {
+      background : '#37474F'
+    },
+    toolbarBackground: {
+      background : 'green'
+    }
   }),
 );
 
@@ -22,7 +28,7 @@ export const Header = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="static"  style={{ background: '#2E3B55' }}> {/* probably not the best practice */}
+      <AppBar position="static" className={classes.background}> {/* probably not the best practice */}
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
@@ -30,7 +36,7 @@ export const Header = () => {
           <Typography variant="h6" className={classes.title}>
             News
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Войти</Button>
         </Toolbar>
       </AppBar>
     </div>
