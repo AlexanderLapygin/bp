@@ -16,10 +16,7 @@ const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
     },
     background: {
-      background : '#37474F'
-    },
-    toolbarBackground: {
-      background : 'green'
+      background : '#37474F',
     }
   }),
 );
@@ -34,7 +31,7 @@ export const Header = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            Header
           </Typography>
           <Button color="inherit">Войти</Button>
         </Toolbar>
