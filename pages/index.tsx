@@ -1,3 +1,7 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import Header from "../components/layout/Header";
 
-export default () => <div>Hello World with NextJS and Storybook in Typescript!</div>
+export default () =>
+    <Fragment>
+        <Header/>
+    </Fragment>
