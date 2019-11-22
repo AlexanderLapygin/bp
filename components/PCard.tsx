@@ -2,22 +2,39 @@ import * as React from 'react'
 import {Card} from "@material-ui/core";
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from "@material-ui/core/CardContent";
+import {makeStyles} from "@material-ui/styles";
 
-export function giveMeFive(): number {
-    return 1000000
-}
+const useStyles = makeStyles({
+    card: {
+        minWidth: 275,
+    },
+    bullet: {
+        display: 'inline-block',
+        margin: '0 2px',
+        transform: 'scale(0.8)',
+    },
+    title: {
+        fontSize: 14,
+    },
+    pos: {
+        marginBottom: 12,
+    },
+});
 
 type Props = {
     title: string
     content: string
-}
+};
 
-// @ts-ignore
-export default (props: Props) => (
-    <Card onClick={() => console.log(giveMeFive())}>Card content
-        <CardHeader title="CardHeader title"/>
-        <CardContent>
-            CardContent content
-        </CardContent>
-    </Card>
-)
+export default (props: Props) => {
+    const classes = useStyles();
+    return (
+        <Card className={classes.card}>Card content
+            <CardHeader title="CardHeader title"/>
+            <CardContent>
+                CardContent content
+                {props.content}
+            </CardContent>
+        </Card>
+    );
+}
