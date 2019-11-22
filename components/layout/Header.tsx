@@ -2,5 +2,5 @@ import React from 'react'
 
 export const Header = () =>
     <div>
-        Header
+        <h1>Header</h1>
     </div>
