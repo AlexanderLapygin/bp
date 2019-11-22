@@ -22,7 +22,7 @@ export const Header = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="static"  style={{ background: '#2E3B55' }}>
+      <AppBar position="static"  style={{ background: '#2E3B55' }}> {/* probably not the best practice */}
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <MenuIcon />
