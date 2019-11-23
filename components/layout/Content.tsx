@@ -3,11 +3,11 @@ import {Grid} from "@material-ui/core";
 import PCard from "../PCard";
 
 const styles = {
-  Paper: { padding: 20, marginTop: 10, marginBottom: 10}
+  Paper: { padding: 20, marginTop: 10, marginBottom: 10, background: 'gray'}
 }
 
 export const Content = () =>
-  <Grid container justify="center">
+  <Grid container justify="center" spacing={10}>
     <Grid item>
       <PCard title='First title' content='First content' styles={styles}/>
     </Grid>
