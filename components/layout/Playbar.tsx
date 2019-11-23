@@ -23,14 +23,14 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export const Footer = () => {
+export const Playbar = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.background}> {/* probably not the best practice */}
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            Footer
+            Playbar
           </Typography>
         </Toolbar>
       </AppBar>
