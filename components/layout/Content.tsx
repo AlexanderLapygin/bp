@@ -7,11 +7,11 @@ const styles = {
 }
 
 export const Content = () =>
-  <Grid container>
-    <Grid item sm>
+  <Grid container justify="center">
+    <Grid item>
       <PCard title='First title' content='First content' styles={styles}/>
     </Grid>
-    <Grid item sm>
+    <Grid item>
       <PCard title='Second title' content='Second content' styles={styles}/>
     </Grid>
   </Grid>
