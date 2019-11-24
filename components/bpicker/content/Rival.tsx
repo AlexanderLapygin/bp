@@ -9,7 +9,7 @@ type Props = {
   styles: any
 };
 
-export default (props: Props) => {
+export const Rival = (props: Props) => {
   return (
     <Card>
       <CardHeader title={props.title}/>

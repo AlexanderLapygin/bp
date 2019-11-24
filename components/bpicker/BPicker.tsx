@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {Fragment} from 'react';
-import Playbar from "./Playbar";
-import Content from "./Content";
+import Playbar from "./playbar/Playbar";
+import Content from "./content/Content";
 
 export default () =>
   <Fragment>

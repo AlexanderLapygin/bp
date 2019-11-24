@@ -1,1 +1,1 @@
-export * from '../bpicker/BPicker';
+export * from './BPicker';
