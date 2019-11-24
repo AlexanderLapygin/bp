@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default () => {
+export const ApplicationBar = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
