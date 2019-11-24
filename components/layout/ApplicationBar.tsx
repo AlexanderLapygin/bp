@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react';
 import {IconButton, Toolbar, Typography} from "@material-ui/core";
 import MenuIcon from '@material-ui/icons/Menu';
 import {AppBar} from "@material-ui/core";
@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
 );
 
 export const ApplicationBar = () => {
-  const classes = useStyles();
+  const classes = useStyles({});
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.back}> {/* probably not the best practice */}

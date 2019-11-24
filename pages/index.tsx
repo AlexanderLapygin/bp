@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import {ApplicationBar} from "../components/layout/ApplicationBar";
-import {BeautyPicker} from "../components/bpicker/BeautyPicker";
+import {BeautyPicker} from "../components/beautypicker/BeautyPicker";
 
 export default () =>
     <Fragment>

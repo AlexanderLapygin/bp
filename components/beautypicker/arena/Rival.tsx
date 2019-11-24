@@ -4,9 +4,9 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from "@material-ui/core/CardContent";
 
 type Props = {
-  title: string,
-  content: string,
-  styles: any
+  title?: string,
+  content?: string,
+  styles?: any
 };
 
 export const Rival = (props: Props) => {
