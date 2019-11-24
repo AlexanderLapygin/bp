@@ -10,7 +10,6 @@ type Props = {
 };
 
 export default (props: Props) => {
-  //const classes = useStyles();
   return (
     <Card style={props.styles.Paper}>
       <CardHeader title={props.title}/>

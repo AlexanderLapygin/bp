@@ -1,7 +1,7 @@
-import React from 'react'
-import {Toolbar, Typography} from "@material-ui/core";
+import * as React from 'react'
+import {createStyles, Theme, Toolbar, Typography} from "@material-ui/core";
 import {AppBar} from "@material-ui/core";
-import {createStyles, makeStyles, Theme} from '@material-ui/core/styles'
+import {makeStyles} from "@material-ui/core";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -23,8 +23,8 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export const Playbar = () => {
-  const classes = useStyles();
+export default () => {
+  const classes = useStyles({});
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.background}> {/* probably not the best practice */}

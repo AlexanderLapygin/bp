@@ -1,9 +1,9 @@
 import React, {Fragment} from 'react';
-import {Content, Playbar, Header} from "../components/layout";
+import BPAppBar from "../components/layout/BPAppBar";
+import BPicker from "../components/bpicker/BPicker";
 
 export default () =>
     <Fragment>
-        <Header/>
-        <Content/>
-        <Playbar/>
+        <BPAppBar/>
+        <BPicker/>
     </Fragment>

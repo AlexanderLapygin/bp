@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export const Header = () => {
+export default () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
@@ -31,7 +31,7 @@ export const Header = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h5" className={classes.title}>
-            Header
+            Application Bar
           </Typography>
         </Toolbar>
       </AppBar>

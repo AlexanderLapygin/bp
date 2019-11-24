@@ -4,8 +4,10 @@ import PCard from "./PCard";
 
 storiesOf('PCard', module)
   .add('PCard with text1', () => {
+    // @ts-ignore
     return <PCard title="title1" content="Hello World1"/>
   })
   .add('PCard with text2', () => {
+    // @ts-ignore
     return <PCard title="title2" content="Hello World2"/>
   })
