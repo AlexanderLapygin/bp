@@ -10,14 +10,6 @@ Array [
     >
       <div
         className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
-        style={
-          Object {
-            "background": "lightgray",
-            "marginBottom": 10,
-            "marginTop": 10,
-            "padding": 20,
-          }
-        }
       >
         <div
           className="MuiCardHeader-root"
@@ -44,14 +36,6 @@ Array [
     >
       <div
         className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
-        style={
-          Object {
-            "background": "lightgray",
-            "marginBottom": 10,
-            "marginTop": 10,
-            "padding": 20,
-          }
-        }
       >
         <div
           className="MuiCardHeader-root"

@@ -11,7 +11,7 @@ type Props = {
 
 export default (props: Props) => {
   return (
-    <Card style={props.styles.Paper}>
+    <Card>
       <CardHeader title={props.title}/>
       <CardContent>
         {props.content}
