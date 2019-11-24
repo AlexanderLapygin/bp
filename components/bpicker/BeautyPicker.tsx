@@ -1,10 +1,10 @@
 import * as React from 'react'
 import {Fragment} from 'react';
 import {Playbar} from "./playbar/Playbar";
-import {Content} from "./content/Content";
+import {Arena} from "./arena/Arena";
 
 export const BeautyPicker = () =>
   <Fragment>
-    <Content/>
+    <Arena/>
     <Playbar/>
   </Fragment>
