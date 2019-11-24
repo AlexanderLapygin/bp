@@ -6,7 +6,7 @@ const styles = {
   Paper: { padding: 20, marginTop: 10, marginBottom: 10, background: 'lightgray'}
 }
 
-export default () =>
+export const Content = () =>
   <Grid container justify="center" spacing={10}>
     <Grid item>
       <Rival title='First title!!!' content='First content' styles={styles}/>

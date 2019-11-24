@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default () => {
+export const Playbar = () => {
   const classes = useStyles({});
   return (
     <div className={classes.root}>
