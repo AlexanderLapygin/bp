@@ -3,7 +3,7 @@ import {Fragment} from 'react';
 import {Playbar} from "./playbar/Playbar";
 import {Content} from "./content/Content";
 
-export const BPicker = () =>
+export const BeautyPicker = () =>
   <Fragment>
     <Content/>
     <Playbar/>

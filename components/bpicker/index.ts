@@ -1,1 +1,1 @@
-export * from './BPicker';
+export * from './BeautyPicker';

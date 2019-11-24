@@ -1,9 +1,9 @@
 import React, {Fragment} from 'react';
 import {ApplicationBar} from "../components/layout/ApplicationBar";
-import {BPicker} from "../components/bpicker/BPicker";
+import {BeautyPicker} from "../components/bpicker/BeautyPicker";
 
 export default () =>
     <Fragment>
         <ApplicationBar/>
-        <BPicker/>
+        <BeautyPicker/>
     </Fragment>
