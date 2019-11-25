@@ -1,9 +1,5 @@
-import React, {Fragment} from 'react';
-import {ApplicationBar} from "../components/application-bar/ApplicationBar";
-import {TasteCourt} from "../components/tastecourt/TasteCourt";
+import React from 'react';
+import Application from "../components/application/Application";
 
 export default () =>
-    <Fragment>
-        <ApplicationBar/>
-        <TasteCourt/>
-    </Fragment>
+  <Application/>
