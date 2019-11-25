@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as TestRenderer from 'react-test-renderer';
-import {BeautyPicker} from "./BeautyPicker";
+import {TasteCourt} from "./TasteCourt";
 
 it('renders correctly', () => {
-  const tree = TestRenderer.create(<BeautyPicker/>).toJSON()
+  const tree = TestRenderer.create(<TasteCourt/>).toJSON()
   expect(tree).toMatchSnapshot()
 })

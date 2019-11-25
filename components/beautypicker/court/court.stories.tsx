@@ -2,7 +2,7 @@ import * as React from 'react'
 import {storiesOf} from '@storybook/react'
 import {Court} from "./Court";
 
-storiesOf('Arena', module)
+storiesOf('Court', module)
   .add('Court default view', () => {
     return <Court/>
   })

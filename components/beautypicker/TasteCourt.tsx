@@ -3,7 +3,7 @@ import {Fragment} from 'react';
 import {Playbar} from "./playbar/Playbar";
 import {Court} from "./court/Court";
 
-export const BeautyPicker = () =>
+export const TasteCourt = () =>
   <Fragment>
     <Court/>
     <Playbar/>

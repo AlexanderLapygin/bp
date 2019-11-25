@@ -1,1 +1,1 @@
-export * from './BeautyPicker';
+export * from './TasteCourt';
