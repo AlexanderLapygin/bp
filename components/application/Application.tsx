@@ -5,6 +5,6 @@ import {ApplicationBar} from "./application-bar/ApplicationBar";
 
 export default () =>
   <Fragment>
-    <ApplicationBar/>
+    <ApplicationBar title="Tasting Court"/>
     <TasteCourt/>
   </Fragment>

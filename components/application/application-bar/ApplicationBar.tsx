@@ -4,6 +4,14 @@ import MenuIcon from '@material-ui/icons/Menu';
 import {AppBar} from "@material-ui/core";
 import {createStyles, makeStyles, Theme} from '@material-ui/core/styles'
 
+export interface ApplicationBarProps {
+  /**
+   * The title of the application.
+   */
+  title?: string;
+}
+
+
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -21,7 +29,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export const ApplicationBar = () => {
+export const ApplicationBar = (props: ApplicationBarProps) => {
   const classes = useStyles({});
   return (
     <div className={classes.root}>
@@ -31,7 +39,7 @@ export const ApplicationBar = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h5" className={classes.title}>
-            Application Bar
+            {props.title}
           </Typography>
         </Toolbar>
       </AppBar>
