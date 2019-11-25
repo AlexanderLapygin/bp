@@ -6,3 +6,6 @@ storiesOf('ApplicationBar', module)
   .add('ApplicationBar default view', () => {
     return <ApplicationBar/>
   })
+  .add('ApplicationBar with title', () => {
+    return <ApplicationBar title="Application Title"/>
+  })
