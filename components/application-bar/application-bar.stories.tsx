@@ -6,6 +6,3 @@ storiesOf('ApplicationBar', module)
   .add('ApplicationBar default view', () => {
     return <ApplicationBar/>
   })
-  .add('ApplicationBar fake other view', () => {
-    return <ApplicationBar/>
-  })

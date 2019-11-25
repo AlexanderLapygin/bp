@@ -6,6 +6,3 @@ storiesOf('TasteCourt', module)
   .add('TasteCourt default view', () => {
     return <TasteCourt/>
   })
-  .add('TasteCourt fake other view', () => {
-    return <TasteCourt/>
-  })

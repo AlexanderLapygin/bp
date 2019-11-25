@@ -6,6 +6,3 @@ storiesOf('Playbar', module)
   .add('Playbar default view', () => {
     return <Playbar/>
   })
-  .add('Playbar fake other view', () => {
-    return <Playbar/>
-  })

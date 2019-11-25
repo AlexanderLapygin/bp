@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
-import {ApplicationBar} from "../components/layout/ApplicationBar";
-import {TasteCourt} from "../components/beautypicker/TasteCourt";
+import {ApplicationBar} from "../components/application-bar/ApplicationBar";
+import {TasteCourt} from "../components/tastecourt/TasteCourt";
 
 export default () =>
     <Fragment>
