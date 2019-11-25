@@ -5,6 +5,6 @@ import {Box} from "@material-ui/core";
 
 export const TasteCourt = () =>
   <Box>
-    <Court/>
+    <Court />
     <Playbar/>
   </Box>

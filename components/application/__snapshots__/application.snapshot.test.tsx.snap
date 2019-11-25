@@ -2,10 +2,16 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="MuiBox-root MuiBox-root-4 makeStyles-root-1"
+  className="MuiBox-root MuiBox-root-2"
+  style={
+    Object {
+      "height": "96vh",
+      "width": "100vw",
+    }
+  }
 >
   <header
-    className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic makeStyles-back-7 MuiAppBar-colorPrimary"
+    className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic makeStyles-back-5 MuiAppBar-colorPrimary"
   >
      
     <div
@@ -13,7 +19,7 @@ exports[`renders correctly 1`] = `
     >
       <button
         aria-label="menu"
-        className="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-5 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+        className="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-3 MuiIconButton-colorInherit MuiIconButton-edgeStart"
         disabled={false}
         onBlur={[Function]}
         onDragLeave={[Function]}
@@ -46,79 +52,83 @@ exports[`renders correctly 1`] = `
         </span>
       </button>
       <h5
-        className="MuiTypography-root makeStyles-title-6 MuiTypography-h5"
+        className="MuiTypography-root makeStyles-title-4 MuiTypography-h5"
       >
         Taste Club
       </h5>
     </div>
   </header>
   <div
-    className="MuiBox-root MuiBox-root-99"
-    style={
-      Object {
-        "height": "100vh",
-        "width": "100vw",
-      }
-    }
+    className="MuiBox-root MuiBox-root-97"
   >
     <div
-      className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-10 MuiGrid-justify-xs-center"
+      className="MuiBox-root MuiBox-root-98"
+      style={
+        Object {
+          "height": "87vh",
+          "width": "100vw",
+        }
+      }
     >
       <div
-        className="MuiGrid-root MuiGrid-item"
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-10 MuiGrid-justify-xs-center"
       >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+          className="MuiGrid-root MuiGrid-item"
         >
           <div
-            className="MuiCardHeader-root"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
           >
             <div
-              className="MuiCardHeader-content"
+              className="MuiCardHeader-root"
             >
-              <span
-                className="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+              <div
+                className="MuiCardHeader-content"
               >
-                First title
-              </span>
+                <span
+                  className="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                >
+                  First title
+                </span>
+              </div>
             </div>
-          </div>
-          <div
-            className="MuiCardContent-root"
-          >
-            First content
+            <div
+              className="MuiCardContent-root"
+            >
+              First content
+            </div>
           </div>
         </div>
-      </div>
-      <div
-        className="MuiGrid-root MuiGrid-item"
-      >
         <div
-          className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+          className="MuiGrid-root MuiGrid-item"
         >
           <div
-            className="MuiCardHeader-root"
+            className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
           >
             <div
-              className="MuiCardHeader-content"
+              className="MuiCardHeader-root"
             >
-              <span
-                className="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+              <div
+                className="MuiCardHeader-content"
               >
-                Second title
-              </span>
+                <span
+                  className="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                >
+                  Second title
+                </span>
+              </div>
             </div>
-          </div>
-          <div
-            className="MuiCardContent-root"
-          >
-            Second content
+            <div
+              className="MuiCardContent-root"
+            >
+              Second content
+            </div>
           </div>
         </div>
       </div>
     </div>
     <header
-      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionRelative makeStyles-background-211 MuiAppBar-colorPrimary"
+      className="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionRelative makeStyles-background-210 MuiAppBar-colorPrimary"
     >
        
       <div
