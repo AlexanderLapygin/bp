@@ -1,24 +1,12 @@
 import * as React from 'react'
-import {createStyles, Theme, Toolbar, Typography} from "@material-ui/core";
+import {createStyles, Toolbar, Typography} from "@material-ui/core";
 import {AppBar} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core";
 
-const useStyles = makeStyles((theme: Theme) =>
+const useStyles = makeStyles(() =>
   createStyles({
-    root: {
-      flexGrow: 1
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
-    title: {
-      flexGrow: 1,
-    },
     background: {
       background : '#37474F'
-    },
-    toolbarBackground: {
-      background : 'green'
     }
   }),
 );
@@ -26,14 +14,12 @@ const useStyles = makeStyles((theme: Theme) =>
 export const Playbar = () => {
   const classes = useStyles({});
   return (
-    <div className={classes.root}>
-      <AppBar position="static" className={classes.background}> {/* probably not the best practice */}
+      <AppBar position="relative" className={classes.background}> {/* probably not the best practice */}
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6">
             Playbar
           </Typography>
         </Toolbar>
       </AppBar>
-    </div>
   )
 }

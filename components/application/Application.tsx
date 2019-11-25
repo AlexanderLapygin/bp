@@ -1,10 +1,10 @@
 import * as React from 'react'
-import {Fragment} from 'react';
 import {TasteCourt} from "./taste-court";
 import {ApplicationBar} from "./application-bar/ApplicationBar";
+import {Box} from "@material-ui/core";
 
 export default () =>
-  <Fragment>
-    <ApplicationBar title="Tasting Court"/>
+  <Box style={{width: '100vw', height: '100vh'}}>
+    <ApplicationBar title="Taste Club"/>
     <TasteCourt/>
-  </Fragment>
+  </Box>

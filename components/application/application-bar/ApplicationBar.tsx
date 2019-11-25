@@ -14,9 +14,6 @@ export interface ApplicationBarProps {
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    root: {
-      flexGrow: 1
-    },
     menuButton: {
       marginRight: theme.spacing(2)
     },
@@ -32,7 +29,6 @@ const useStyles = makeStyles((theme: Theme) =>
 export const ApplicationBar = (props: ApplicationBarProps) => {
   const classes = useStyles({});
   return (
-    <div className={classes.root}>
       <AppBar position="static" className={classes.back}> {/* probably not the best practice */}
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
@@ -43,6 +39,5 @@ export const ApplicationBar = (props: ApplicationBarProps) => {
           </Typography>
         </Toolbar>
       </AppBar>
-    </div>
   )
 }
