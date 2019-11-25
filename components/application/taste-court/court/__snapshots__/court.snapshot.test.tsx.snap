@@ -19,7 +19,7 @@ exports[`renders correctly 1`] = `
           <span
             className="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
           >
-            First title!!!
+            First title
           </span>
         </div>
       </div>
